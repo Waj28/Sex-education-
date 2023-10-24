@@ -1,0 +1,58 @@
+def main():
+    print("Welcome to the Sex Education Program")
+    while True:
+        print("\nPlease select a topic:")
+        print("1. Human Anatomy")
+        print("2. Puberty")
+        print("3. Contraception")
+        print("4. Safe Sex")
+        print("5. Consent")
+        print("6. Relationships")
+        print("7. Quit")
+
+        choice = input("Enter the number of the topic you want to learn about (or '7' to quit): ")
+
+        if choice == '1':
+            display_anatomy()
+        elif choice == '2':
+            display_puberty()
+        elif choice == '3':
+            display_contraception()
+        elif choice == '4':
+            display_safe_sex()
+        elif choice == '5':
+            display_consent()
+        elif choice == '6':
+            display_relationships()
+        elif choice == '7':
+            print("Thank you for using the Sex Education Program. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please select a valid option.")
+
+def display_anatomy():
+    print("\nHuman Anatomy")
+    # Provide information about human anatomy related to sex education.
+
+def display_puberty():
+    print("\nPuberty")
+    # Provide information about puberty, its changes, and its importance in sex education.
+
+def display_contraception():
+    print("\nContraception")
+    # Provide information about different types of contraception methods and their use.
+
+def display_safe_sex():
+    print("\nSafe Sex")
+    # Explain the importance of safe sex practices and methods to prevent STIs and unplanned pregnancies.
+
+def display_consent():
+    print("\nConsent")
+    # Explain the importance of consent in sexual relationships and how to communicate and respect boundaries.
+
+def display_relationships():
+    print("\nRelationships")
+    # Discuss healthy relationships, communication, and emotional aspects related to sex education.
+
+if __name__ == "__main":
+    main()
