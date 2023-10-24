@@ -1,0 +1,52 @@
+/* Style the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Style the menu options */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #007bff;
+}
+
+/* Style the input field */
+input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+/* Style the "Quit" button */
+.quit-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.quit-button:hover {
+    background-color: #c82333;
+}
